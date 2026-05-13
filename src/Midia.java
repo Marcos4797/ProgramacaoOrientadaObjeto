@@ -16,7 +16,9 @@ public abstract class Midia {
     // Metodo Abstrato (sem corpo, termina com ponto e vírgula)
     public abstract double calcularCusto();
 
-
+    public int getDuracaoEmMinutos() {
+        return this.duracaoEmMinutos;
+    }
 }
 
 
