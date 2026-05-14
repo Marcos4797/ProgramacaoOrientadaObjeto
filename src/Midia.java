@@ -13,7 +13,7 @@ public abstract class Midia {
     public void exibirDetalhes() {
         System.out.println("Titulo" + titulo + " | Duração: " + duracaoEmMinutos + "min");
     }
-    // Metodo Abstrato (sem corpo, termina com ponto e vírgula)
+
     public abstract double calcularCusto();
 
     public int getDuracaoEmMinutos() {
