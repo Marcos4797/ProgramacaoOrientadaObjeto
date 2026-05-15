@@ -1,0 +1,16 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Default ignored files\r\n/shelf/\r\n/workspace.xml\r\n# Ignored default folder with query files\r\n/queries/\r\n# Datasource local storage ignored files\r\n/dataSources/\r\n/dataSources.local.xml\r\n# Editor-based HTTP Client requests\r\n/httpRequests/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 9a034387bcb373e1fbc5878d126e7390d9d52618)
++++ b/.gitignore	(date 1778871857406)
+@@ -8,3 +8,4 @@
+ /dataSources.local.xml
+ # Editor-based HTTP Client requests
+ /httpRequests/
++.idea/
+\ No newline at end of file
