@@ -13,11 +13,19 @@ public class Main {
 
         processarPlayer(meuFilme);
         processarPlayer(minhaMusica);
-        }
+    }
 
     public static void processarPlayer(Reproduzivel item) {
         System.out.println("Iniciando reprodução via polimorfismo...");
         item.darPlay();
+
+        System.out.println("Iniciando reprodução...");
+        item.darPlay();
+
+        if (item instanceof Midia) {
+            Midia m = (Midia) item;
+            System.out.println("Custo de processamento: R$ " + m.calcularCusto());
         }
- }
+    }
+}
 
