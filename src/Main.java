@@ -1,19 +1,19 @@
-
+import java.util.ArrayList;
+import java.util.List;
     public class Main {
         public static void main(String[] args) {
 
-            CartaoCredito meuCartao = new CartaoCredito("4444-5555-6666-7777", "Seu Nome", 5000.00);
+            List<MeioPagamento> pagamentos = new ArrayList<>();
 
-            ProcessadorPagamento processador = new ProcessadorPagamento(meuCartao);
+            pagamentos.add(new CartaoCredito());
+            pagamentos.add(new Pix());
+            pagamentos.add(new Boleto());
 
-            System.out.println("--- Iniciando Venda 1 ---");
-            processador.executarVenda(2000.00);
-            System.out.println("Limite Disponível: R$ " + meuCartao.getLimiteDisponivel());
 
-            System.out.println("\n--- Iniciando Venda 2 (Teste de Erro) ---");
-
-            processador.executarVenda(4000.00);
-            System.out.println("Limite Final: R$ " + meuCartao.getLimiteDisponivel());
+            for (MeioPagamento p : pagamentos) {
+                p.pagar(100.0);
+            }
         }
     }
+
 
