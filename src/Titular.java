@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Titular extends Beneficiario {
 
-    private List<Dependente> dependentes = new ArrayList<>();
+    private final List<Dependente> dependentes = new ArrayList<>();
 
     public Titular(String cpf, String nome, LocalDate dataNascimento) {
         super(cpf, nome, dataNascimento);
