@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35747434-daa9-484c-8a34-3586c2c287b4" name="Changes" comment="Adicionando classes da Aula 4 de POO" />
+    <list default="true" id="4e14f28c-4cbf-420f-903c-aecda91260d7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Titular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Titular.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,62 +13,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Marcos4797"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Marcos4797&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Marcos4797/ProgramacaoOrientadaObjeto.git",
-    "accountId": "e257255c-ce52-43c5-9bb4-d7c5403230c1"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Marcos4797/ProgramacaoOrientadaObjeto.git&quot;,
+    &quot;accountId&quot;: &quot;6f709566-355f-4591-8847-1d4ab78878ab&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="3E0MyFfgFZ0PV1BqSFb4YKEfwBk" />
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3E0ZxT8J3dZ3pcJYQbBOZDtLOTp" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "Aula4",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Marcos/Desktop/JavaEstudos/POO/ProgramacaoOrientadaObjeto"
+    "last_opened_file_path": "C:/Users/guest.bu/IdeaProjects/POO/ProgramacaoOrientadaObjeto",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="35747434-daa9-484c-8a34-3586c2c287b4" name="Changes" comment="" />
-      <created>1779311285872</created>
+      <changelist id="4e14f28c-4cbf-420f-903c-aecda91260d7" name="Changes" comment="" />
+      <created>1779317696529</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1779311285872</updated>
+      <updated>1779317696529</updated>
     </task>
-    <task id="LOCAL-00001" summary="Adicionando classes da Aula 4 de POO">
-      <option name="closed" value="true" />
-      <created>1779311464053</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1779311464053</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adicionando classes da Aula 4 de POO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando classes da Aula 4 de POO" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
